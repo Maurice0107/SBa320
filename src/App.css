@@ -1,0 +1,19 @@
+/* PokemonDisplay.css */
+.pokemon-container {
+    text-align: center;
+  }
+  
+  .pokemon-name {
+    font-size: 3rem; /* Larger font size */
+    animation: move 2s infinite alternate; /* Animation applied here */
+  }
+  
+  @keyframes move {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(20px); /* Move 20 pixels to the right */
+    }
+  }
+  
